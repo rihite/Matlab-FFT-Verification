@@ -53,7 +53,6 @@ cplxFromInput = complex(re1,im1);
 %cast HW data as a single complex array
 %data is already a FFT so no other operations on data necessary 
 HWFFT = complex(re2,im2);
-mag2 = sqrt(re2.^2 + im2.^2);
 
 %perform fft on input data
 matlabFFT=fft(cplxFromInput);
